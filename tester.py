@@ -1,5 +1,5 @@
 from selenium import webdriver
-driver=webdriver.Chrome('chromedriver_win32/chromedriver.exe')
+driver=webdriver.Chrome('/usr/local/share/chromedriver')
 
 
 driver.get("https://techarena51.com")
